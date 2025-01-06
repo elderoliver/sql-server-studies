@@ -2,6 +2,9 @@
 -- On this example if email1 is null the other value in email2 will be set in column 'email'
 select ISNULL(email1, email2) as email from employees; 
 
+--Replacing null values 
+COALESCE(ColumnName, 'ReplacementValue')
+
 -- RAISERROR function
 -- It's used to create dinamic exceptions that can be based on bussiness rules for example. 
 
