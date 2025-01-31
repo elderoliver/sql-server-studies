@@ -11,3 +11,5 @@ SELECT FORMAT(@Date, 'dd/MM/yyyy') AS FormattedDate;
 DECLARE @Date DATE = GETDATE();
 SELECT CONVERT(VARCHAR(10), @Date, 103) AS FormattedDate;
 
+-- get current year
+SELECT YEAR(GETDATE()) AS current_year;
