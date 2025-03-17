@@ -1,0 +1,4 @@
+ALTER TABLE tblhoteis_Propostas_Acordo_Obs_Restricao
+ADD CONSTRAINT FK_tblhoteis_Propostas_Acordo_Obs_Restricao_hotCodigo
+FOREIGN KEY (hotCodigo)
+REFERENCES tblHoteis(hotCodigo);
