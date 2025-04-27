@@ -13,3 +13,7 @@ SELECT CONVERT(VARCHAR(10), @Date, 103) AS FormattedDate;
 
 -- get current year
 SELECT YEAR(GETDATE()) AS current_year;
+
+-- how to add a year to a date 
+
+DATEADD(YEAR, 1, GETDATE())
