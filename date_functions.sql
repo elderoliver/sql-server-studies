@@ -17,3 +17,6 @@ SELECT YEAR(GETDATE()) AS current_year;
 -- how to add a year to a date 
 
 DATEADD(YEAR, 1, GETDATE())
+
+--Diff between days 
+DATEDIFF(day, start_date, end_date)
